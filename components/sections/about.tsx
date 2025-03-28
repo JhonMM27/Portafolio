@@ -45,7 +45,7 @@ export function About() {
         <div className="about-content">
           <div className={`about-image-container ${isVisible ? "animate-fade-left" : ""}`}>
             <div className="about-image-border"></div>
-            <img src="../img/Foto-principal-prueba.png" alt="About me" className="about-image" />
+            <img src="../public/Foto-principal-prueba.png" alt="About me" className="about-image" />
           </div>
 
           <div className={`about-text ${isVisible ? "animate-fade-right" : ""}`}>
@@ -74,7 +74,7 @@ export function About() {
               </div>
             </div>
 
-            <a href="../img/curriculum.pdf" download className="btn btn-primary about-resume-btn">
+            <a href="public/curriculum.pdf" download className="btn btn-primary about-resume-btn">
               <FileText className="about-resume-icon" />
               {t("about.resume")}
             </a>

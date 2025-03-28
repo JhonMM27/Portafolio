@@ -37,7 +37,7 @@ export function Projects() {
       title: t("project.title1"),
       description:
       t("project.description1"),
-      image: "../img/sistema-ventas.png?height=400&width=600",
+      image: "public/sistema-ventas.png?height=400&width=600",
       tags: ["React", "Laravel", "MySql", "Filament"],
       liveUrl: "https://example.com",
       githubUrl: "https://github.com/JhonMM27/SistemaVentas",
@@ -45,7 +45,7 @@ export function Projects() {
     {
       title: t("project.title2"),
       description: t("project.description2"),
-      image: "../img/pizzeria.png?height=400&width=600",
+      image: "public/pizzeria.png?height=400&width=600",
       tags: ["Html", "Css", "JavaScript"],
       liveUrl: "https://jhonmm27.github.io/Proyecto__web/",
       githubUrl: "https://github.com/JhonMM27/Proyecto__web",
@@ -54,7 +54,7 @@ export function Projects() {
       title: t("project.title3"),
       description:
       t("project.description3"),
-      image: "../img/login-react.png?height=400&width=600",
+      image: "public/login-react.png?height=400&width=600",
       tags: ["React", "D3.js", "Express"],
       liveUrl: "https://example.com",
       githubUrl: "https://github.com/JhonMM27/login_reak",

@@ -56,7 +56,7 @@ export function Hero() {
 
         <div className="hero-image">
           <div className="hero-image-container">
-            <img src="../img/Foto-principal-prueba.png" alt="Developer portrait" className="hero-portrait" />
+            <img src="public/Foto-principal-prueba.png" alt="Developer portrait" className="hero-portrait" />
           </div>
         </div>
       </div>
