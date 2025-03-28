@@ -4,7 +4,6 @@ import { useEffect, useRef, useState } from "react"
 import { Code, Database, Layout, Server, Terminal, Workflow } from "lucide-react"
 import { useLanguage } from "../contexts/LanguageContext"
 import "../../styles/skills.css"
-import React from "react"
 
 export function Skills() {
   const [isVisible, setIsVisible] = useState(false)
