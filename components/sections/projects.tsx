@@ -3,6 +3,10 @@
 import { useEffect, useRef, useState } from "react"
 import { ExternalLink, Github } from "lucide-react"
 import { useLanguage } from "../contexts/LanguageContext"
+
+import imgPro1 from "../../public/sistema-ventas.png"
+import imgPro2 from "../../public/pizzeria.png"
+import imgPro3 from "../../public/login-react.png"
 import "../../styles/projects.css"
 
 export function Projects() {
@@ -37,7 +41,7 @@ export function Projects() {
       title: t("project.title1"),
       description:
       t("project.description1"),
-      image: "public/sistema-ventas.png?height=400&width=600",
+      image: imgPro1,
       tags: ["React", "Laravel", "MySql", "Filament"],
       liveUrl: "https://example.com",
       githubUrl: "https://github.com/JhonMM27/SistemaVentas",
@@ -45,7 +49,7 @@ export function Projects() {
     {
       title: t("project.title2"),
       description: t("project.description2"),
-      image: "public/pizzeria.png?height=400&width=600",
+      image: imgPro2,
       tags: ["Html", "Css", "JavaScript"],
       liveUrl: "https://jhonmm27.github.io/Proyecto__web/",
       githubUrl: "https://github.com/JhonMM27/Proyecto__web",
@@ -54,7 +58,7 @@ export function Projects() {
       title: t("project.title3"),
       description:
       t("project.description3"),
-      image: "public/login-react.png?height=400&width=600",
+      image: imgPro3,
       tags: ["React", "D3.js", "Express"],
       liveUrl: "https://example.com",
       githubUrl: "https://github.com/JhonMM27/login_reak",

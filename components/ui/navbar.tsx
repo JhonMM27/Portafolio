@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react"
 import { FileText, Menu, X } from "lucide-react"
 import { useLanguage } from "../contexts/LanguageContext"
+import curriculum from "../../public/curriculum.pdf"
 import "../../styles/navbar.css"
 
 export function Navbar() {
@@ -49,7 +50,7 @@ export function Navbar() {
           </div>
           <div className="navbar-actions">
             {/* <button className="btn btn-primary">{t("nav.resume")}</button> */}
-            <a href="../../public/curriculum.pdf" download className="btn btn-primary about-resume-btn">
+            <a href={curriculum} download className="btn btn-primary about-resume-btn">
               <FileText className="about-resume-icon" />
               {t("about.resume")}
             </a>

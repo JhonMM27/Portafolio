@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react"
 import { ArrowDown, Github, Linkedin, Twitter } from "lucide-react"
 import { useLanguage } from "../contexts/LanguageContext"
+import imgPri from "../../public/Foto-principal-prueba.png"
 import "../../styles/hero.css"
 
 export function Hero() {
@@ -56,7 +57,7 @@ export function Hero() {
 
         <div className="hero-image">
           <div className="hero-image-container">
-            <img src="public/Foto-principal-prueba.png" alt="Developer portrait" className="hero-portrait" />
+            <img src={imgPri} alt="Developer portrait" className="hero-portrait" />
           </div>
         </div>
       </div>

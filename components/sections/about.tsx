@@ -3,6 +3,9 @@
 import { useEffect, useRef, useState } from "react"
 import { FileText } from "lucide-react"
 import { useLanguage } from "../contexts/LanguageContext"
+
+import imgPri from "../../public/Foto-principal-prueba.png"
+import curriculum from "../../public/curriculum.pdf"
 import "../../styles/about.css"
 
 export function About() {
@@ -45,7 +48,7 @@ export function About() {
         <div className="about-content">
           <div className={`about-image-container ${isVisible ? "animate-fade-left" : ""}`}>
             <div className="about-image-border"></div>
-            <img src="../public/Foto-principal-prueba.png" alt="About me" className="about-image" />
+            <img src={imgPri} alt="About me" className="about-image" />
           </div>
 
           <div className={`about-text ${isVisible ? "animate-fade-right" : ""}`}>
@@ -74,7 +77,7 @@ export function About() {
               </div>
             </div>
 
-            <a href="public/curriculum.pdf" download className="btn btn-primary about-resume-btn">
+            <a href={curriculum} download className="btn btn-primary about-resume-btn">
               <FileText className="about-resume-icon" />
               {t("about.resume")}
             </a>
