@@ -4,9 +4,6 @@ import { useEffect, useRef, useState } from "react"
 import { ExternalLink, Github } from "lucide-react"
 import { useLanguage } from "../contexts/LanguageContext"
 
-import imgPro1 from "../../public/sistema-ventas.png"
-import imgPro2 from "../../public/pizzeria.png"
-import imgPro3 from "../../public/login-react.png"
 import "../../styles/projects.css"
 
 export function Projects() {
@@ -41,7 +38,7 @@ export function Projects() {
       title: t("project.title1"),
       description:
       t("project.description1"),
-      image: imgPro1,
+      image: "/Portafolio/Sistema-Ventas.png",
       tags: ["React", "Laravel", "MySql", "Filament"],
       liveUrl: "https://example.com",
       githubUrl: "https://github.com/JhonMM27/SistemaVentas",
@@ -49,7 +46,7 @@ export function Projects() {
     {
       title: t("project.title2"),
       description: t("project.description2"),
-      image: imgPro2,
+      image: "/Portafolio/pizzeria.png",
       tags: ["Html", "Css", "JavaScript"],
       liveUrl: "https://jhonmm27.github.io/Proyecto__web/",
       githubUrl: "https://github.com/JhonMM27/Proyecto__web",
@@ -58,35 +55,11 @@ export function Projects() {
       title: t("project.title3"),
       description:
       t("project.description3"),
-      image: imgPro3,
+      image: "/Portafolio/login-react.png",
       tags: ["React", "D3.js", "Express"],
       liveUrl: "https://example.com",
       githubUrl: "https://github.com/JhonMM27/login_reak",
     },
-    // {
-    //   title: "Social Media Platform",
-    //   description: "A social networking platform with user profiles, posts, comments, and real-time messaging.",
-    //   image: "/placeholder.svg?height=400&width=600",
-    //   tags: ["React", "GraphQL", "Node.js", "MongoDB"],
-    //   liveUrl: "https://example.com",
-    //   githubUrl: "https://github.com",
-    // },
-    // {
-    //   title: "Weather Application",
-    //   description: "A weather forecast application with location detection and interactive maps.",
-    //   image: "/placeholder.svg?height=400&width=600",
-    //   tags: ["JavaScript", "OpenWeather API", "Mapbox", "HTML/CSS"],
-    //   liveUrl: "https://example.com",
-    //   githubUrl: "https://github.com",
-    // },
-    // {
-    //   title: "Recipe Finder",
-    //   description: "A recipe search application with filtering options, favorites, and meal planning features.",
-    //   image: "/placeholder.svg?height=400&width=600",
-    //   tags: ["React", "Redux", "Spoonacular API", "Tailwind CSS"],
-    //   liveUrl: "https://example.com",
-    //   githubUrl: "https://github.com",
-    // },
   ]
 
   return (

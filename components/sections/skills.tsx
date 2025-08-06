@@ -36,27 +36,27 @@ export function Skills() {
     {
       category: t("skills.categories.frontend"),
       icon: <Layout className="skills-card-icon" />,
-      items: ["HTML/CSS", "JavaScript", "TypeScript", "React", "Next.js", "Tailwind CSS", "Boostrap"],
+      items: ["HTML/CSS", "JavaScript", "TypeScript", "React", "Tailwind CSS", "Boostrap"],
     },
     {
       category: t("skills.categories.backend"),
       icon: <Server className="skills-card-icon" />,
-      items: ["Node.js", "Express", "NestJS", "Python", "Django", "REST APIs", "GraphQL", "Laravel"],
+      items: ["Node.js", "Express", "NestJS", "Python", "REST APIs", "GraphQL", "Laravel"],
     },
     {
       category: t("skills.categories.database"),
       icon: <Database className="skills-card-icon" />,
-      items: ["MongoDB", "PostgreSQL", "MySQL", "MariaDB", "Prisma", "Supabase", "SQLite"],
+      items: ["MongoDB", "PostgreSQL", "MySQL", "MariaDB", "Supabase", "SQLite"],
     },
     {
       category: t("skills.categories.devops"),
       icon: <Terminal className="skills-card-icon" />,
-      items: ["Git", "Docker", "CI/CD", "AWS", "Vercel", "Netlify", "Linux"],
+      items: ["Git", "Docker", "AWS", "Vercel", "Netlify", "Linux"],
     },
     {
       category: t("skills.categories.tools"),
       icon: <Workflow className="skills-card-icon" />,
-      items: ["VS Code", "Figma", "Postman", "Jest", "GitHub", "Jira", "Notion"],
+      items: ["VS Code", "Figma", "Postman", "Jest", "GitHub", "Notion"],
     },
     {
       category: t("skills.categories.languages"),
